@@ -1,0 +1,12 @@
+.App .Cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1{
+    text-align: center;
+    background-color: #424242;
+    margin: 0;
+    margin-bottom: 2px;
+}
