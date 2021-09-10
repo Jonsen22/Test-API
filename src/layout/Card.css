@@ -22,3 +22,9 @@
     color: #000;
     padding: 10px;
 }
+
+.Image{
+    width:75px; 
+    height:75px;
+    border-radius: 100%;
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Card.css"
+import Skeleton from 'react-loading-skeleton';
 
 export default (props) => {
     const cardStyle = {
@@ -11,7 +12,7 @@ export default (props) => {
         <div className="Card" style={cardStyle}>
             <div className="Title">{props.name}</div>
             <div className="Content">
-                <img className="Image" src={props.img} alt={props.name} width="100" height="100" ></img>
+                <img className="Image" src={props.img} alt={props.name}></img>
                 {props.children}
             </div>
         </div>
