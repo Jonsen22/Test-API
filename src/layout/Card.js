@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Card.css"
-import Skeleton from 'react-loading-skeleton';
 
 export default (props) => {
     const cardStyle = {
